@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+</head>
+<body>
+    <script>
+        var now = moment();
+        document.write(now.format('YYYY MM DD'));
+
+        var months = ['Janury','Februry', 'Mrch', 'Apr', 'Yuuuammmmmmay', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+        var now = moment();
+        document.write('<p></p>');//empty line for spacing
+        document.writeln('It is the ' + now.date() + 'th day of ' + months[now.month()] + ' of the year ' + now.year());
+    </script>
+    
+<script>
+    var arr = [1,2,3,4,5, 9, 1];
+    alert('Starting array: ' + arr);
+    arr = _.drop(arr, 2); //https://lodash.com/docs/4.17.15#drop
+    alert('2 Removed from the start: ' + arr);
+    arr = _.without(arr, 4, 5);
+    alert('Without 4 and 5: ' + arr); //https://lodash.com/docs/4.17.15#without
+</script>
+</body>
+</html>
