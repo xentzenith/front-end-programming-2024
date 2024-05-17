@@ -1,0 +1,20 @@
+[
+    {
+        "Plateno": "ABX123",
+        "Make:": "Toyota",
+        "Model": "Corolla",
+        "Price": 23000
+    },
+    {
+        "Plateno": "NMP432",
+        "Make:": "Mazda",
+        "Model": "III",
+        "Price": 32000
+    },
+    {
+        "Plateno": "PAK988",
+        "Make:": "Honda",
+        "Model": "Civic",
+        "Price": 19500
+    }
+]
