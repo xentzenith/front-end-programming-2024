@@ -1,20 +1,38 @@
 import './App.css';
 
-function App() {
-  const user = {
-    firstname: 'John',
-    lastname: 'Doe',
-    age: 29,
-    email: 'johndoe@gmail.com'
-  }
 
+function Header() {
   return (
-    <main>
-      <p>Name: {user.firstname} {user.lastname}</p>
-      <p>Age: {user.age}</p>
-      <p>Email: {user.email}</p>
+    <header id="header">
+      <h1>Header</h1>
+    </header>
+  );
+}
+
+function Navbar() {
+  return (
+    <nav id="navbar">
+      <h2>Navbar</h2>
+    </nav>
+  );
+}
+
+function Main() {
+  return (
+    <main id="main">
+      <h2>Main</h2>
     </main>
-  )
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Navbar />
+      <Main />
+    </div>
+  );
 }
 
 

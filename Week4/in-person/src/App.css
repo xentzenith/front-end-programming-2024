@@ -1,4 +1,18 @@
-main{
-  font-size: xx-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#header, #navbar, #main {
+  outline: 1px solid black;
+  display: inline-block;
+}
+
+#header {
+  width: 100%;
+}
+
+#navbar {
+  width: 30%;
+  height: 100vh;
+}
+
+#main {
+  width: 70%;
+  height: 100vh;
 }
