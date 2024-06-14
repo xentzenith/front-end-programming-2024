@@ -1,41 +1,43 @@
-.App {
-  text-align: center;
-  background-color: #2b2b2b;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-header {
-  margin: 20px;
-}
-
-ul {
-  list-style-type: circle;
-  text-align: left;
-  padding: 0;
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
 }
 
-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+}
+
+input[type="text"] {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-top: -15px;
+  margin-bottom: 15px;
 }
